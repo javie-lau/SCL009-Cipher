@@ -1,3 +1,16 @@
+const container = document.getElementById("portada");
+
+   document.getElementById("portada").style.display="block";//invisible
+   document.getElementById("root").style.display="none";//invisible
+
+document.getElementById("comenzar").addEventListener("click",() => {
+    document.getElementById("portada").style.display="none";//invisible
+   document.getElementById("root").style.display="block";//invisible
+});
+
+
+
+
 document.getElementById("botonCifrado").addEventListener("click", () => {
     let string = document.getElementById("escribir").value.toUpperCase();
     let offset=parseInt(document.getElementById("offset").value);
@@ -29,7 +42,7 @@ document.getElementById("botonCifrado").addEventListener("click", () => {
 document.getElementById("decifrando").addEventListener("click", () => {
 
  let string = document.getElementById("escribir").value.toUpperCase();
-    let offset=parseInt(document.getElementById("offset").value);
+ let offset=parseInt(document.getElementById("offset").value);
     //console.log(offset);
 
 
@@ -51,6 +64,6 @@ document.getElementById("decifrando").addEventListener("click", () => {
             document.getElementById("respuesta").value = decifradoFinal;
 
     }
-    return cifradoFinal  
+    return decifradoFinal  
     
 });
