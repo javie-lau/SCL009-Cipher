@@ -1,6 +1,9 @@
 window.cipher = {
   encode: () => {
-    /* Acá va tu código */
+    
+      
+       
+   
     
   },
   decode: () => {

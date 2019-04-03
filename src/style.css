@@ -1,1 +1,22 @@
-/* Acá va tu código */
+.tamañoCajita {
+    background:pink;
+    width:50%;
+    height:150px;
+    align:center;
+    font-size: 15px;
+    color: rgb(4, 4, 58)
+
+}
+body{
+    background-color: rgba(152, 226, 226, 0.404);
+}
+.botones{
+    
+    background-color: rgba(81, 48, 112, 0.5);
+    width: 90px;
+    height: 30px;
+    align-self: auto;
+    
+    
+
+}
