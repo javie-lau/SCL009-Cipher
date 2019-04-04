@@ -13,6 +13,9 @@ window.cipher = {
         text = String.fromCharCode(((caracter - 65 + offset) % 26) + 65);
        // console.log(text);
         } 
+        else if (caracter>=97 && caracter<=122){
+          text = String.fromCharCode(((caracter - 97 + offset) % 26) + 97);
+        }
         
         else{
            alert("Solo letras de la A a la Z");return;
@@ -47,11 +50,14 @@ window.cipher = {
         text = String.fromCharCode(((caracter + 65 - offset) % 26) + 65);
        // console.log(text);
         }
+        else if (caracter>=97 && caracter<=122){
+          text = String.fromCharCode(((caracter + 97 - offset) % 26) + 97);
+        }
         else{
             alert("Solo letras de la A a la Z");return;
                         
              
-             
+           
              
          }
 
