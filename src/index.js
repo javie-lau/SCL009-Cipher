@@ -28,6 +28,14 @@ document.getElementById("botonCifrado").addEventListener("click", () => {
         if (caracter>= 65 && caracter <= 90){
         text = String.fromCharCode(((caracter - 65 + offset) % 26) + 65);
        // console.log(text);
+        } 
+        
+        else{
+           alert("Solo letras de la A a la Z");return;
+                       
+            
+            
+            
         }
 
              cifradoFinal += text;
@@ -55,9 +63,16 @@ document.getElementById("decifrando").addEventListener("click", () => {
         let caracter = texto.charCodeAt();
         //console.log(caracter);
         if (caracter>= 65 && caracter <= 90){
-        text = String.fromCharCode(((caracter - 65 - offset) % 26) + 65);
+        text = String.fromCharCode(((caracter + 65 - offset) % 26) + 65);
        // console.log(text);
         }
+        else{
+            alert("Solo letras de la A a la Z");return;
+                        
+             
+             
+             
+         }
 
              decifradoFinal += text;
             // console.log(cifradoFinal);
