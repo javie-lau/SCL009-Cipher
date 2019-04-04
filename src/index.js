@@ -1,4 +1,4 @@
-const container = document.getElementById("portada");
+//const container = document.getElementById("portada");
 
    document.getElementById("portada").style.display="block";//invisible
    document.getElementById("root").style.display="none";//invisible
