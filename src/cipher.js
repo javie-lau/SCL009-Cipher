@@ -47,7 +47,7 @@ window.cipher = {
       
         }
         else if (caracter>=97 && caracter<=122){ //caracter>=97 && caracter<=122
-          text = String.fromCharCode(((caracter + 97 - offset) % 26) + 97); //caracter + 97 - offset) % 26) + 97
+          text = String.fromCharCode(((caracter -122 - offset) % 26) + 122); //caracter + 97 - offset) % 26) + 97
         }
         else if (caracter==32){
           text = String.fromCharCode(caracter);
