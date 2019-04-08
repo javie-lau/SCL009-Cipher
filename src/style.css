@@ -1,34 +1,85 @@
+#portada{
+ background-image: url("./imagenes/avion.png");
+ 
+ 
+}
+#root{
+    background-image: url("./imagenes/18575e88aa0f713.png")
+}
+
 .tamañoCajita {
     background:pink;
-    width:50%;
+    width:40%;
     height:150px;
-    align:center;
     font-size: 15px;
     color: rgb(4, 4, 58)
 
 }
 body{
+    text-align:center;
     background-color: rgba(152, 226, 226, 0.404);
+    
 }
 .botones{
     
-    background-color: rgba(81, 48, 112, 0.5);
+    background-color:rgb(58, 154, 179);
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
     width: 90px;
     height: 30px;
     align-self: auto;
+    border-radius: 10px;
     
    }
-   .parrafo{
-    background-color: rgb(233, 204, 209);
-    align:center;
+
+   .comenzar{
+    
+    background-color:rgb(42, 98, 145);
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90px;
+    height: 30px;
+    align-self: auto;
+    border-radius: 10px;
+    
+   }
+   
+   p{
+    font-family: Arial, Helvetica, sans-serif;
     font-style: oblique;
-    font-size: 40px;
-    width:60%;
-    height:150px;
+    font-size: 20px;
+    color:black;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 8%;
+    
 
    }
+   .bajada{
+     color: rgb(9, 8, 58);  
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+   }
    h1{
-    color: rgb(4, 4, 49);
+    color: rgb(9, 8, 58);
+    text-align:center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
     size: 50px;
     
    }
+
+   h2{
+    color: rgb(55, 12, 90);
+    text-align:center;   
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 40px;
+    
+   }
+.caja{
+    background-color:white;
+             
+}
