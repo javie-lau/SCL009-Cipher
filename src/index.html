@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-    <h1>Avioncito de papel</h1><br>
+    <img src="C:\Users\PANGUI\Desktop\SCL009-Cipher\src\imagenes/LOGO.png" class="logo">
+      
   </head>
   <body>
     <div id="portada">
@@ -23,8 +24,26 @@
 
     </div>
     <div id="root">
-      <h2>¿Cuantos espacios quieres desplazar el texto?</h2><br>
+
+        <table class="preguntaOffset">
+
+            <tr>
+          
+              <td><h2 class="espacios">¿Cuantos espacios quieres <br>desplazar el texto?</h2><br></td>
+          
+              <td><input id= "offset" class="caja" type="number" ><br> <br></td>
+          
+            </tr>
+          
+          </table>
+
+
+    
+    <!--  <h2 class="espacios">¿Cuantos espacios quieres desplazar el texto?</h2><br>
     <input id= "offset" class="caja" type="number" ><br> <br>
+    -->
+    
+    
     <input  id="escribir" type="text" class= "tamañoCajita"  placeholder="escribe lo que quieras cifrar"><br> <br>
     <input id= "botonCifrado" type="button" name="cifrar" class= "botones" value="cifrar">
     <input id= "decifrando" type="button" name="decifrar" class= "botones" value="Decifrar"/><br><br>
