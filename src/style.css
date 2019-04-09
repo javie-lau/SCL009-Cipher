@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Domine');
+
 #portada{
  background-image: url("./imagenes/avion.png");
  
@@ -13,6 +16,7 @@
     height:150px;
     font-size: 15px;
     color: rgb(4, 4, 58)
+    font-family: 'Domine', serif;
 
 }
 body{
@@ -25,7 +29,7 @@ body{
     background-color:rgb(58, 154, 179);
     color: white;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Domine', serif;
     width: 90px;
     height: 30px;
     align-self: auto;
@@ -38,7 +42,7 @@ body{
     background-color:rgb(42, 98, 145);
     color: white;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Domine', serif;
     width: 90px;
     height: 30px;
     align-self: auto;
@@ -47,26 +51,28 @@ body{
    }
    
    p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: oblique;
+    font-family: 'Domine', serif;
     font-size: 20px;
     color:black;
     padding-left: 35%;
     padding-right: 35%;
-    padding-top: 8%;
+    padding-top: 1%;
     
 
    }
    .bajada{
-     color: rgb(9, 8, 58);  
-     font-size: 20px;
-     font-family: Arial, Helvetica, sans-serif;
+     color: rgb(43, 44, 116);  
+     font-size: 23px;
+     font-family: 'Domine', serif;
+     padding-top:6%;
+     font-style: italic;
+  
    }
    h1{
     color: rgb(9, 8, 58);
     text-align:center;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Domine', serif;
     size: 50px;
     
    }
@@ -75,8 +81,10 @@ body{
     color: rgb(55, 12, 90);
     text-align:center;   
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Domine', serif;
     size: 40px;
+    padding-top: 4%;
+    font-style: bold;
     
    }
 .caja{
