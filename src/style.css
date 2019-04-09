@@ -16,9 +16,8 @@
     height:150px;
     font-size: 15px;
     color: rgb(4, 4, 58)
-    font-family: 'Domine', serif;
-
-}
+    font-family:'Domine', serif;
+  }
 body{
     text-align:center;
     background-color: rgba(152, 226, 226, 0.404);
