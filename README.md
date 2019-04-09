@@ -1,5 +1,5 @@
 
-![imagen](LOGO.png)
+![imagen](https://github.com/javie-lau/SCL009-Cipher/blob/master/src/imagenes/LOGO.png)
 # avioncito de Papel
 Es una pagina educativa para niñes de entre 8 y 15 años que busca enseñar la base de la encriptación a través de las primeras formas de cifrado que datan en la historia. 
 El objetivo de esta pagina no es lograr un cifrado complejo, si no que entregar un metodo que genere el entendimiento a los encriptados existentes en la modernidad. 
