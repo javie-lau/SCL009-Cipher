@@ -1,4 +1,4 @@
-![avioncito de papel](LOGO.png)
+![ ](C:\Users\PANGUI\Desktop\SCL009-Cipher\src\imagenes\LOGO.png)
 
 ###avioncito de Papel
 Es una pagina educativa para niñes de entre 8 y 15 años que busca enseñar la base de la encriptación a través de las primeras formas de cifrado que datan en la historia. 
