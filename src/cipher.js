@@ -9,7 +9,7 @@ window.cipher = {
         let text = "";
         let caracter = texto.charCodeAt();
         let otherCharacters = (caracter>=32 && caracter<=47)||(caracter>=58 && caracter<=64)||
-        (caracter>=91 && caracter<=96)||(caracter>=123 && caracter<=254);
+        (caracter>=91 && caracter<=96)||(caracter>=123 && caracter<=254);//otros caracteres no cifran si aparecen
 
         //offset positivo
         if(offset>=0){ if (caracter>= 65 && caracter <= 90){

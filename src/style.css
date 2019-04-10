@@ -13,7 +13,7 @@
 .tamañoCajita {
     background:pink;
     width:40%;
-    height:150px;
+    height:130px;
     font-size: 15px;
     color: rgb(4, 4, 58)
     font-family:'Domine', serif;
@@ -88,8 +88,8 @@ body{
    }
 .caja{
     background-color:white;
-    width: 50px;
-    height: 20px;
+    width: 40px;
+    height: 30px;
     margin-left: 35%;
              
 }
@@ -103,10 +103,17 @@ body{
  
 .preguntaOffset{
     align-self: center;
-    margin-left: 35%;
+    margin-left: 36%;
+    margin-right: 32%;
+    background-color: rgb(199, 233, 247);
+    padding-right: 2%;
+    margin-top:1%;
+    margin-bottom: 1%;
+    border:rgb(163, 23, 182) 1px solid;
+
 
 }
 .logo{
-    width: 480px; 
-    height: 154px;
+    width: 460px; 
+    height: 148px;
 }
