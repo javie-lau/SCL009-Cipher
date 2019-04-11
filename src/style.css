@@ -52,10 +52,12 @@ body{
     border-radius: 10px;
    }
    
-   p{
+   .parrafo{
     font-family: 'Domine', serif;
     font-size: 1.5rem;
     color:black;
+    margin:0% 25%;
+    text-align: justify;
     /*padding-left: 35%;
     padding-right: 35%;
     padding-top: 1%;*/
