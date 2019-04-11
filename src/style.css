@@ -126,19 +126,125 @@ body{
         width:100%;
     }
 
+
 }
 @media screen and (max-width:992px;){
     .size{
         width:100%;
     }
+    .tamañoCajita{
+        width:100%;
+    }
+    .botones{
+        width:100%;
+    }
+    .comenzar{
+        width:100%;
+    }
+    p{
+        width:100%;
+    }
+    .bajada{
+        width:100%;
+    }
+    h1{
+        width:100%;
+    }
+    h2{
+        width:100%;
+    }
+    .caja{
+        width:100%;
+    }
+    .espacios{
+        width:100%;
+    }
+       
+    .preguntaOffset{
+    width:100%;
+}
+     .logo{
+    width:100%;
+}
+    
+
+    
 }
 @media screen and (max-width:768px){
     size{
         width:100%;
     }
+    .tamañoCajita{
+        width:100%;
+    }
+    .botones{
+        width:100%;
+    }
+    .comenzar{
+        width:100%;
+    }
+    p{
+        width:100%;
+    }
+    .bajada{
+        width:100%;
+    }
+    h1{
+        width:100%;
+    }
+    h2{
+        width:100%;
+    }
+    .caja{
+        width:100%;
+    }
+    .espacios{
+        width:100%;
+    }
+       
+    .preguntaOffset{
+    width:100%;
+}
+     .logo{
+    width:100%;
+}
 }
 @media screen and (max-width:320px){
     size{
         width:100%;
     }
+    .tamañoCajita{
+        width:100%;
+    }
+    .botones{
+        width:100%;
+    }
+    .comenzar{
+        width:100%;
+    }
+    p{
+        width:100%;
+    }
+    .bajada{
+        width:100%;
+    }
+    h1{
+        width:100%;
+    }
+    h2{
+        width:100%;
+    }
+    .caja{
+        width:100%;
+    }
+    .espacios{
+        width:100%;
+    }
+       
+    .preguntaOffset{
+    width:100%;
+}
+     .logo{
+    width:100%;
+}
 }
