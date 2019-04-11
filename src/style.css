@@ -91,6 +91,19 @@ body{
     font-style: bold;
     
    }
+ 
+.preguntaOffset{
+    align-self: center;
+    margin:39%;
+    background-color: rgb(199, 233, 247);
+    padding: 0.8rem;
+    margin-top:0.5rem;
+    margin-bottom: 0.5rem;
+    border:rgb(163, 23, 182) 1px solid;
+    box-sizing: border-box;
+
+
+}
 .caja{
     background-color:white;
     width: 2rem;
@@ -105,32 +118,12 @@ body{
 
 }
     
- 
-.preguntaOffset{
-    align-self: center;
-    margin:39%;
-    background-color: rgb(199, 233, 247);
-    padding: 0.8rem;
-    margin-top:0.5rem;
-    margin-bottom: 0.5rem;
-    border:rgb(163, 23, 182) 1px solid;
-    box-sizing: border-box;
-
-
-}
 .logo{
     width: 35%; 
     height: 5%;
     height: auto;
 }
-@media screen and (max-width:1200px;){
-    .size{
-        width:100%;
-    }
-
-
-}
-@media screen and (max-width:992px;){
+@media screen and (max-width:1200px){
     .size{
         width:100%;
     }
@@ -138,12 +131,53 @@ body{
         width:100%;
     }
     .botones{
-        width:100%;
+        width:80%;
     }
     .comenzar{
+        width:80%;
+    }
+    .parrafo{
         width:100%;
     }
-    p{
+    .bajada{
+        width:100%;
+    }
+    h1{
+        width:100%;
+    }
+    h2{
+        width:100%;
+    }
+    .caja{
+        width:100%;
+    }
+    .espacios{
+        width:100%;
+    }
+       
+    .preguntaOffset{
+    width:100%;
+}
+     .logo{
+    width:100%;
+}
+
+
+}
+@media screen and (max-width:992px){
+    .size{
+        width:100%;
+    }
+    .tamañoCajita{
+        width:100%;
+    }
+    .botones{
+        width:80%;
+    }
+    .comenzar{
+        width:80%;
+    }
+    .parrafo{
         width:100%;
     }
     .bajada{
@@ -180,12 +214,12 @@ body{
         width:100%;
     }
     .botones{
-        width:100%;
+        width:80%;
     }
     .comenzar{
-        width:100%;
+        width:80%;
     }
-    p{
+    .parrafo{
         width:100%;
     }
     .bajada{
@@ -219,12 +253,12 @@ body{
         width:100%;
     }
     .botones{
-        width:100%;
+        width:80%;
     }
     .comenzar{
-        width:100%;
+        width:80%;
     }
-    p{
+    .parrafo{
         width:100%;
     }
     .bajada{
