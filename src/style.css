@@ -39,6 +39,12 @@ body{
     border-radius: 1%;
     
    }
+   .botones:hover{
+    background:rgba(224, 23, 140, 0.575);
+    color:rgb(41, 19, 23);
+    cursor:pointer;
+
+   }
 
    .comenzar{
     
@@ -51,8 +57,13 @@ body{
     align-self: auto;
     border-radius: 10px;
    }
-   
-   .parrafo{
+   .comenzar:hover{/*cambiar de color el boton y la letra cuando pasa el cursor y cambiar el puntero*/
+        background:rgba(224, 23, 140, 0.575);
+        color:rgb(41, 19, 23);
+        cursor:pointer;
+
+   }
+   p{
     font-family: 'Domine', serif;
     font-size: 1.5rem;
     color:black;
@@ -136,7 +147,7 @@ body{
     .comenzar{
         width:50%;
     }
-    .parrafo{
+    p{
         width:100%;
     }
     .bajada{
@@ -177,7 +188,7 @@ body{
     .comenzar{
         width:50%;
     }
-    .parrafo{
+    p{
         width:100%;
     }
     .bajada{
@@ -219,8 +230,13 @@ body{
     .comenzar{
         width:50%;
     }
-    .parrafo{
+    p{
         width:100%;
+        font-family: 'Domine', serif;
+        font-size: 1.5rem;
+        color:black;
+        text-align: justify;
+        margin:0;
     }
     .bajada{
         width:100%;
@@ -233,6 +249,10 @@ body{
     }
     .caja{
         width:100%;
+        background-color:white;
+        width: 2rem;
+        height: 1rem;
+       
     }
     .espacios{
         width:100%;
@@ -240,6 +260,7 @@ body{
        
     .preguntaOffset{
     width:100%;
+    margin:0%;
 }
      .logo{
     width:100%;
@@ -258,8 +279,13 @@ body{
     .comenzar{
         width:50%;
     }
-    .parrafo{
+    p{
         width:100%;
+        font-family: 'Domine', serif;
+        font-size: 1.5rem;
+        color:black;
+        text-align: justify;
+        margin:0;
     }
     .bajada{
         width:100%;
@@ -272,13 +298,26 @@ body{
     }
     .caja{
         width:100%;
+        background-color:white;
+        width: 2rem;
+        height: 1rem;
+       
     }
     .espacios{
         width:100%;
     }
        
     .preguntaOffset{
-    width:100%;
+        width:100%;
+        align-self: center;
+        background-color: rgb(199, 233, 247);
+        padding: 0.8rem;
+        margin :0%;
+        margin-top:0.5rem;
+        margin-bottom: 0.5rem;
+        border:rgb(163, 23, 182) 1px solid;
+        box-sizing: border-box;
+    
 }
      .logo{
     width:100%;
