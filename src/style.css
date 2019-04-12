@@ -275,9 +275,12 @@ body{
     }
     .botones{
         width:50%;
+        height: 30px;
     }
     .comenzar{
         width:50%;
+        height: 30px;
+      
     }
     p{
         width:100%;
